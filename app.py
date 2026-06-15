@@ -384,7 +384,7 @@ elif pagina == "🗺️ Mapa do Piauí":
             "Exibindo tabela alternativa."
         )
 
-    # Tabela com ranking
+# Tabela com ranking
     st.subheader(f"Ranking de municípios — {ano_sel}")
     df_rank = (
         df_mapa
@@ -393,23 +393,27 @@ elif pagina == "🗺️ Mapa do Piauí":
     )
     df_rank.index += 1
 
-    # Destacar Parnaíba
+    # Highlight ANTES do rename — cod_municipio ainda existe
     def highlight_parnaiba(row):
         if row["cod_municipio"] == COD_PARNAIBA:
             return ["background-color: #fff3e0"] * len(row)
         return [""] * len(row)
 
-    st.dataframe(
-        df_rank[["nome_municipio", col_metrica, "cobertura_media"]]
-        .rename(columns={
-            "nome_municipio": "Município",
-            col_metrica: metrica_sel,
-            "cobertura_media": "Cobertura média %",
-        })
-        .style.apply(highlight_parnaiba, axis=1),
-        height=400,
-        use_container_width=True,
+    df_display = df_rank[["nome_municipio", "cod_municipio", col_metrica, "cobertura_media"]].copy()
+
+    styled = (
+        df_display
+        .style
+        .apply(highlight_parnaiba, axis=1)
     )
+
+    # Renomear só para exibição — depois do style
+    styled = styled.relabel_index(
+        ["Município", "Cód.", col_metrica.replace("_", " ").title(), "Cobertura média %"],
+        axis="columns"
+    )
+
+    st.dataframe(styled, height=400, use_container_width=True)
 
     # Estatísticas rápidas
     st.markdown("---")

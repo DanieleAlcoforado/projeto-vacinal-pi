@@ -1,7 +1,7 @@
 """
 ╔══════════════════════════════════════════════════════════════╗
 ║  app.py — Painel de Cobertura Vacinal no Piauí             ║
-║  TCC: Dani Alcoforado — Tecnólogo em Ciência de Dados      ║
+║  Projeto: Daniele Alcoforado — Tecnólogo em Ciência de Dados      ║
 ║  Deploy: Streamlit Community Cloud                          ║
 ╚══════════════════════════════════════════════════════════════╝
 
@@ -177,7 +177,6 @@ with st.sidebar:
     st.markdown("---")
     st.markdown(
         "<small>Dados: SI-PNI/DATASUS (2015–2022)<br>"
-        "TCC — Dani Alcoforado — UNINTER<br>"
         "Tecnólogo em Ciência de Dados</small>",
         unsafe_allow_html=True,
     )
@@ -293,8 +292,7 @@ if pagina == "🏠 Início":
         st.subheader("📋 O que é este painel?")
         st.markdown("""
         Este painel apresenta os dados de **vacinação infantil no Piauí** 
-        entre 2015 e 2022, desenvolvido como trabalho de conclusão de curso 
-        em Ciência de Dados pela UNINTER.
+        entre 2015 e 2022.
 
         **Para quem é este painel:**
         - 👨‍👩‍👧 **Famílias** — saiba se Parnaíba está vacinando bem

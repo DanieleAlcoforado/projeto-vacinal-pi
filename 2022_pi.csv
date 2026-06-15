@@ -1,0 +1,102 @@
+cod_faixa,faixa_nome
+50,Menor de 1 ano
+F5,Feminino < 1 ano
+G5,Masculino < 1 ano
+F6,Feminino 6 meses
+G6,Masculino 6 meses
+F9,Feminino 9 meses
+G9,Masculino 9 meses
+51,1 ano
+52,2 anos
+53,3 anos
+54,4 anos
+F1,Feminino 1 ano
+G1,Masculino 1 ano
+F2,Feminino 2 anos
+G2,Masculino 2 anos
+F3,Feminino 3 anos
+G3,Masculino 3 anos
+F4,Feminino 4 anos
+G4,Masculino 4 anos
+55,5 anos
+56,6 anos
+57,7 anos
+58,8 anos
+59,9 anos
+F7,Feminino 7 anos
+G7,Masculino 7 anos
+F8,Feminino 8 anos
+G8,Masculino 8 anos
+S1,Escolar — 1º ano
+S2,Escolar — 2º ano
+S3,Escolar — 3º ano
+S4,Escolar — 4º ano
+S5,Escolar — 5º ano
+S6,Escolar — 6º ano
+S7,Escolar — 7º ano
+S8,Escolar — 8º ano
+S9,Escolar — 9º ano
+C4,Ciclo 4
+C5,Ciclo 5
+C6,Ciclo 6
+C7,Ciclo 7
+C8,Ciclo 8
+61,Adolescente (10–19 anos)
+01,Adolescente
+03,Adolescente (12–13 anos)
+16,Adolescente (16 anos)
+X1,Campanha — 9 anos
+X2,Campanha — 10 anos
+X3,Campanha — 11 anos
+X4,Campanha — 12 anos
+X5,Campanha — 13 anos
+X6,Campanha — 14 anos
+X7,Campanha — 15 anos
+17,Adulto (17–29 anos)
+18,Adulto (18–29 anos)
+72,Adulto Trabalhador
+74,Adulto (20–59 anos)
+75,Adulto (30–59 anos)
+D1,Adulto (20–29 anos)
+D2,Adulto (30–39 anos)
+D3,Adulto (40–49 anos)
+D4,Adulto (50–59 anos)
+D5,Adulto (20–59 anos)
+D6,Adulto (25–29 anos)
+D7,Adulto (30–59 anos)
+D8,Adulto (50–59 anos)
+D9,Adulto (18–59 anos)
+G,Gestante
+P,Puérpera
+32,Idoso (≥ 60 anos)
+97,Idoso (60+ anos)
+R2,Idoso (60–69 anos)
+R3,Idoso (70–79 anos)
+R4,Idoso (80+ anos)
+R5,Idoso (60–64 anos)
+R6,Idoso (65–69 anos)
+R7,Idoso (70–74 anos)
+R8,Idoso (75–79 anos)
+R9,Idoso (80+ anos)
+A4,Indígena < 1 ano
+A8,Indígena adulto
+04,4 anos
+09,9 anos
+20,Adulto (20–29 anos)
+31,Adulto (30–39 anos)
+64,Idoso (60–64 anos)
+67,Idoso (65–69 anos)
+68,Idoso (60–69 anos)
+69,Idoso (60–69 anos)
+73,Idoso (70–74 anos)
+79,Idoso (70–79 anos)
+87,Idoso (80+ anos)
+A0,Indígena < 1 ano
+A1,Indígena 1 ano
+E0,Escolar — pré-escola
+E1,Escolar — 1º ano (especial)
+R0,Adulto (50–59 anos)
+R1,Adulto (55–59 anos)
+S0,Escolar — pré-escola
+W1,Campanha — adulto faixa 1
+W2,Campanha — adulto faixa 2

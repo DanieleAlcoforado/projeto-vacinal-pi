@@ -1,0 +1,100 @@
+codigo,nome_vacina
+000,Hepatite B (ao nascer)
+003,BCG
+006,Rotavírus Humano (VORH)
+007,Meningocócica C
+008,Pneumocócica 10V
+009,Poliomielite (VOP)
+010,Pentavalente (DTP+Hib+HepB)
+011,Febre Amarela
+012,Tríplice Viral - D1
+013,Tríplice Viral - D2
+014,DTP (1º reforço)
+015,Poliomielite (reforço)
+016,DTP (2º reforço)
+017,Dupla Adulto (dT)
+018,Hepatite B (adulto)
+019,Influenza
+02,DTP
+020,Pneumocócica 23V
+021,HPV
+022,Meningocócica C (adolescente)
+04,DTP
+053,Influenza
+06,BCG
+061,Meningocócica ACWY
+07,Febre Amarela
+072,Dupla Adulto (dT)
+073,Influenza
+074,Tríplice Viral (SCR)
+08,Poliomielite (VOP)
+080,Febre Amarela (campanha adulto)
+083,BCG (revacinação)
+087,BCG
+09,Sarampo
+091,COVID-19
+094,Meningocócica C (reforço)
+095,Dengue (campanha)
+096,Influenza (campanha criança)
+097,Influenza (campanha gestante)
+098,Dupla Adulto dT (campanha)
+099,Influenza (campanha idoso)
+10,Sarampo
+100,Dengue
+101,COVID-19 - D1
+102,COVID-19 - D2
+108,COVID-19 - Reforço
+12,Hepatite B
+13,Tríplice Bacteriana (DTP)
+14,Dupla Infantil (DT)
+16,Hepatite B (adulto)
+19,BCG (revacinação)
+21,Tríplice Viral (SCR)
+22,Dupla Adulto (dT)
+23,Hepatite A
+25,Meningocócica C (conjugada)
+27,Pneumocócica 23V
+28,Pentavalente (DTP+Hib+HepB)
+36,Rotavírus Humano (VORH)
+38,Influenza (campanha)
+4,DTP
+40,Pneumocócica 10V
+45,Influenza (campanha idoso)
+46,Influenza (campanha gestante)
+48,Hepatite B (campanha adulto)
+49,DTP (reforço)
+52,Poliomielite (VIP)
+53,Influenza
+55,HPV Quadrivalente
+56,VIP (Polio Inativada)
+57,HPV (campanha)
+58,Meningocócica C (campanha)
+6,BCG
+60,Varicela
+61,Meningocócica ACWY
+63,Influenza (campanha adulto 60+)
+7,Febre Amarela
+70,Febre Amarela (campanha)
+73,Meningocócica C (reforço)
+74,Tríplice Viral (campanha)
+8,Poliomielite (VOP)
+80,Pneumocócica 10V (reforço)
+87,BCG
+89,COVID-19 (bivalente)
+9,Sarampo
+91,COVID-19
+93,Pneumocócica 10V (reforço)
+94,Meningocócica C (reforço)
+95,Dengue (campanha)
+96,Influenza (campanha criança)
+98,Poliomielite (reforço)
+X150,COVID-19 - Coronavac
+X151,COVID-19 - AstraZeneca
+X152,COVID-19 - Pfizer
+X153,COVID-19 - Janssen
+X155,Varicela (campanha)
+X156,COVID-19 - Pfizer Bivalente
+X157,COVID-19 - Moderna
+X158,COVID-19 - Pfizer (6m-4a)
+X160,Hepatite A (campanha)
+XX,COVID-19 (não especificada)
